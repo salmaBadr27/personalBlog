@@ -9,14 +9,12 @@ const StyledList = {
 };
 const headings = {
   color: "#800080",
-  textTransform :"capitalize"
-
+  textTransform: "capitalize"
 };
 const title = {
   color: "#800080",
   fontSize: "30px",
-  textTransform :"capitalize"
-
+  textTransform: "capitalize"
 };
 const danger = {
   color: "#fff",
@@ -35,7 +33,7 @@ const PostList = props => (
       return (
         <PostItem key={e.id}>
           <div style={title}>{e.title}</div>
-          <div style={headings}>{e.author}</div>
+          <div style={headings}>Written By: {e.author}</div>
           <p>{e.subject}</p>
           <div style={danger} onClick={() => props.onDeleteClick(e.id)}>
             Delete

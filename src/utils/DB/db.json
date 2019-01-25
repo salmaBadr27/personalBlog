@@ -1,22 +1,22 @@
 {
   "allposts": [
     {
-      "title": "third post",
-      "author": "yasser",
-      "subject": "dfddfdf",
-      "id": 2
-    },
-    {
-      "title": "second post",
-      "author": "mama",
-      "subject": "thanks",
-      "id": 3
-    },
-    {
       "title": "first post",
       "author": "salma",
       "subject": "Let’s say you want to create the killer TODO app. You synchronise the list of your tasks to your Back End and you use your REST API to:\n\nretrieve the list of tasks;\nadd a new task;\nget the details of a specific task;\nchange the state of a task from “TO-DO” to “DONE” (and vice versa);\ndelete a task.",
       "id": 4
+    },
+    {
+      "title": "second post",
+      "author": "yasser",
+      "subject": "Sometimes you are hitching for starting to work on the Front End of your application (or on your new mobile app), but have to wait for your pal to finish that REST API you agreed on days ago. You could create a static JSON file in your application, but that would be so… well.. static!",
+      "id": 5
+    },
+    {
+      "title": "third post",
+      "author": "mama",
+      "subject": "What if I told you that you can mock up that REST API you are waiting for in just 5 minutes and you can start to write your client code right now, without having to wait? JSON Server is a very useful npm module, open source and released under the MIT licence, that allows developers to prototype their Back End quickly. When the actual real API will be ready, it will just be a matter of switching the base URL your Front End sends requests to.",
+      "id": 6
     }
   ]
 }
