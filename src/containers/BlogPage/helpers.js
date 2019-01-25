@@ -11,7 +11,3 @@ export const handleAddPost = (e, newPost, addPosts) => {
     addPosts(newPost);
   }
 };
-
-export const handleDeletePost = (id, deletePost) => {
-  deletePost(id);
-};
