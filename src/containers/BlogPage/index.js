@@ -16,7 +16,8 @@ const styledContainer = {
   alignItems: "center",
   width: "100%",
   padding: "0",
-  margin: "0"
+  margin: "0",
+  boxSizing: "border-box"
 };
 
 class BlogPage extends React.Component {

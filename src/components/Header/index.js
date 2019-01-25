@@ -3,7 +3,7 @@ import React from "react";
 const styledBrand = {
   display: "flex",
   fontFamily: "cursive",
-  fontSize: " 35px",
+  fontSize: " 30px",
   color: "#800080",
   justifyContent: "center",
   alignItem: "center",
