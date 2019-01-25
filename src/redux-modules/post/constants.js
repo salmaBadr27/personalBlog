@@ -1,0 +1,12 @@
+export const GET_ALL_POSTS = "GET_ALL_POSTS";
+export const GET_ALL_POSTS_SUCCESS = "GET_ALL_POSTS_SUCCESS";
+export const GET_ALL_POSTS_FAIL = "GET_ALL_POSTS_FAIL";
+export const ADD_POST = "ADD_POST";
+export const ADD_POST_SUCCESS = "ADD_POST_SUCCESS";
+export const ADD_POST_FAIL = "ADD_POST_FAIL";
+export const EDIT_POST = "EDIT_POST";
+export const EDIT_POST_SUCCESS = "EDIT_POST_SUCCESS";
+export const EDIT_POST_FAIL = "EDIT_POST_FAIL";
+export const DELETE_POST = "DELETE_POST";
+export const DELETE_POST_SUCCESS = "DELETE_POST_SUCCESS";
+export const DELETE_POST_FAIL = "DELETE_POST_FAIL";

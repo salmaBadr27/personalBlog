@@ -1,0 +1,22 @@
+{
+  "allposts": [
+    {
+      "title": "third post",
+      "author": "yasser",
+      "subject": "dfddfdf",
+      "id": 2
+    },
+    {
+      "title": "second post",
+      "author": "mama",
+      "subject": "thanks",
+      "id": 3
+    },
+    {
+      "title": "first post",
+      "author": "salma",
+      "subject": "Let’s say you want to create the killer TODO app. You synchronise the list of your tasks to your Back End and you use your REST API to:\n\nretrieve the list of tasks;\nadd a new task;\nget the details of a specific task;\nchange the state of a task from “TO-DO” to “DONE” (and vice versa);\ndelete a task.",
+      "id": 4
+    }
+  ]
+}
