@@ -8,11 +8,15 @@ const StyledList = {
   width: "90%"
 };
 const headings = {
-  color: "#800080"
+  color: "#800080",
+  textTransform :"capitalize"
+
 };
 const title = {
   color: "#800080",
-  fontSize: "30px"
+  fontSize: "30px",
+  textTransform :"capitalize"
+
 };
 const danger = {
   color: "#fff",
