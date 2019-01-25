@@ -5,7 +5,7 @@ export const handleAddPost = (e, newPost, addPosts) => {
     author: e.target.auth.value,
     subject: e.target.sub.value
   };
-  if (newPost.auth === "" || newPost.sub === "" || newPost.title === "") {
+  if (newPost.author === "" || newPost.subject === "" || newPost.title === "") {
     alert("fill the form correctly please");
   } else {
     addPosts(newPost);
